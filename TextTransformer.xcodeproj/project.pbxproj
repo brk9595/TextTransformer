@@ -14,6 +14,9 @@
 		0BC2672F2263A104000A64F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BC2672D2263A104000A64F1 /* Main.storyboard */; };
 		0BC2673B2263A104000A64F1 /* TextTransformerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC2673A2263A104000A64F1 /* TextTransformerTests.swift */; };
 		0BC267462263A104000A64F1 /* TextTransformerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC267452263A104000A64F1 /* TextTransformerUITests.swift */; };
+		0BC267542263B7E0000A64F1 /* zalgo.json in Resources */ = {isa = PBXBuildFile; fileRef = 0BC267532263B7E0000A64F1 /* zalgo.json */; };
+		0BC267562263B82C000A64F1 /* ZalgoCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC267552263B82C000A64F1 /* ZalgoCharacters.swift */; };
+		0BC267582263BB85000A64F1 /* ROT13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC267572263BB85000A64F1 /* ROT13.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		0BC267412263A104000A64F1 /* TextTransformerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextTransformerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BC267452263A104000A64F1 /* TextTransformerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTransformerUITests.swift; sourceTree = "<group>"; };
 		0BC267472263A104000A64F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BC267532263B7E0000A64F1 /* zalgo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zalgo.json; sourceTree = "<group>"; };
+		0BC267552263B82C000A64F1 /* ZalgoCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZalgoCharacters.swift; sourceTree = "<group>"; };
+		0BC267572263BB85000A64F1 /* ROT13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROT13.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 			children = (
 				0BC267242263A101000A64F1 /* AppDelegate.swift */,
 				0BC267262263A101000A64F1 /* ViewController.swift */,
+				0BC267572263BB85000A64F1 /* ROT13.swift */,
+				0BC267552263B82C000A64F1 /* ZalgoCharacters.swift */,
+				0BC267532263B7E0000A64F1 /* zalgo.json */,
 				0BC2672B2263A104000A64F1 /* Assets.xcassets */,
 				0BC2672D2263A104000A64F1 /* Main.storyboard */,
 				0BC267302263A104000A64F1 /* Info.plist */,
@@ -233,6 +242,7 @@
 			files = (
 				0BC2672C2263A104000A64F1 /* Assets.xcassets in Resources */,
 				0BC2672F2263A104000A64F1 /* Main.storyboard in Resources */,
+				0BC267542263B7E0000A64F1 /* zalgo.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +268,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BC267272263A101000A64F1 /* ViewController.swift in Sources */,
+				0BC267562263B82C000A64F1 /* ZalgoCharacters.swift in Sources */,
 				0BC267252263A101000A64F1 /* AppDelegate.swift in Sources */,
+				0BC267582263BB85000A64F1 /* ROT13.swift in Sources */,
 				0BC2672A2263A101000A64F1 /* TextTransformer.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
